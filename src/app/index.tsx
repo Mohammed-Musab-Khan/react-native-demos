@@ -8,19 +8,30 @@ import NameComponent from '../components/NameComponent'
 import AgeComponent from '../components/AgeComponent'
 import XHandleComponent from '../components/XHandleComponent'
 import FavSubjectComponent from '../components/FavSubjectComponent'
+import ImageComponent from '../components/ImageComponent'
+import CarComponent from '../components/CarComponent'
+import ListData from '../components/ListData'
+import ArrayOfObject from '../components/ArrayOfObject'
+import HugeComponent from '../components/HugeComponent'
 
 const Index = () => {
   return (
-    <View style={{alignItems:'center'}}>
+    <View>
+      <HugeComponent />
+      {/* <ArrayOfObject /> */}
+      {/* <ListData /> */}
+      {/* <CarComponent /> */}
+      {/* <ImageComponent /> */}
       {/* <NameComponent />
       <AgeComponent />
       <XHandleComponent />
-      <FavSubjectComponent /> */}
+      <FavSubjectComponent />
 
-      {/* <ExternalStyle /> */}
+      <ExternalStyle /> */}
       {/* <ProductComponent /> */}
       {/* <DynamicContext /> */}
-      <ProfileCardComponent />
+      {/* <ProfileCardComponent />  */}
+
     </View>
   )
 }
