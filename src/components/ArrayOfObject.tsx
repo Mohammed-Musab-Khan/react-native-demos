@@ -18,7 +18,7 @@ const ArrayOfObject = () => {
       <Text>Array Of Object</Text>
         <FlatList data={countries} 
                     renderItem={(country) => {
-                        return <Text>The Id is <strong>{country.item.id}</strong> and the country is <strong>{country.item.name}</strong></Text>
+                        return <Text>The Id is {country.item.id} and the country is{country.item.name}</Text>
                     }} />
     </View>
   )

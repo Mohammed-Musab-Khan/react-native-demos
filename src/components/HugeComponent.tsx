@@ -54,16 +54,16 @@ const HugeComponent = () => {
     };
 
     return (
-        <SafeAreaProvider>
-            <SafeAreaView  style={styles.container}>
+        <View style={{ flex: 1, flexDirection: 'row' }}>
+            <Text>Flatlist</Text>
+            
                 <FlatList
                 data={products}
                 keyExtractor={(item, index) => index.toString()}
                 renderItem={renderItem}
             />
-            </SafeAreaView>
-            
-        </SafeAreaProvider>
+          
+        </View>
     );
 };
 

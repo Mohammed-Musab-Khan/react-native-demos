@@ -17,8 +17,10 @@ import HugeComponent from '../components/HugeComponent'
 const Index = () => {
   return (
     <View>
+      <Text>Hello</Text>
       <HugeComponent />
-      {/* <ArrayOfObject /> */}
+
+      <ArrayOfObject />
       {/* <ListData /> */}
       {/* <CarComponent /> */}
       {/* <ImageComponent /> */}
