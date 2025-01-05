@@ -1,4 +1,4 @@
-import { View, Text, Button } from 'react-native'
+import { View, Text, Button, StyleSheet } from 'react-native'
 import React from 'react'
 import ProfileCardComponent from '../components/ProfileCardComponent'
 import DynamicContext from '../components/DynamicContent'
@@ -13,14 +13,39 @@ import CarComponent from '../components/CarComponent'
 import ListData from '../components/ListData'
 import ArrayOfObject from '../components/ArrayOfObject'
 import HugeComponent from '../components/HugeComponent'
+import ParentComponent from '../components/ParentComponent'
+import ConditionalStatements from '../components/ConditionalStatements'
+import AndOperator from '../components/AndOperator'
+import TernaryOpereator from '../components/TernaryOperator'
+import WithoutState from '../components/1. Basic Counter/WithoutState'
+import WithState from '../components/1. Basic Counter/WithState'
+import UpdateArray from '../components/2. Updating Arrays/UpdateArray'
+import UpdateObject from '../components/3. Update Objects/UpdateObject'
+import SharingState from '../components/4. Sharing State/SharingState'
+import ToggleButton from '../components/ToggleButton'
+import WeatherApp from '../components/WeatherApp'
+import ColorPicker from '../components/ColorPicker'
 
 const Index = () => {
   return (
     <View>
-      <Text>Hello</Text>
-      <HugeComponent />
+      <Text style={styles.heading}>My Name is Mohammed Musab Khan</Text>
 
-      <ArrayOfObject />
+      {/* <ColorPicker /> */}
+      {/* <WeatherApp />   */}
+      {/* <ToggleButton /> */}
+      {/* <SharingState /> */}
+      {/* <UpdateObject /> */}
+      {/* <UpdateArray /> */}
+      {/* <WithState /> */}
+      {/* <WithoutState /> */}
+      <TernaryOpereator />
+      {/* <AndOperator /> */}
+      {/* <ConditionalStatements /> */}
+      {/* <ParentComponent /> */}
+      {/* <HugeComponent /> */}
+
+      {/* <ArrayOfObject /> */}
       {/* <ListData /> */}
       {/* <CarComponent /> */}
       {/* <ImageComponent /> */}
@@ -32,10 +57,16 @@ const Index = () => {
       <ExternalStyle /> */}
       {/* <ProductComponent /> */}
       {/* <DynamicContext /> */}
-      {/* <ProfileCardComponent />  */}
+      <ProfileCardComponent /> 
 
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  heading: {
+
+  }
+})
 
 export default Index
